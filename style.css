@@ -7,12 +7,12 @@
 }
 
 .navbar {
-    background-color: #2c3e50; /* Alterado para um tom mais escuro */
-    color: #ffffff; /* Texto branco para melhor contraste */
-    padding: 1rem 2rem; /* Adicionado espaçamento interno */
+    background-color: #2c3e50; 
+    color: #ffffff; 
+    padding: 1rem 2rem; 
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Alinhamento vertical */
+    align-items: center; 
 }
 
 .navbar-session {
@@ -21,17 +21,17 @@
 }
 
 .navbar-session li {
-    margin: 0 1rem; /* Espaçamento entre os itens */
+    margin: 0 1rem; 
 }
 
 .navbar-session li a {
-    color: #ffffff; /* Texto branco */
-    font-weight: bold; /* Negrito */
-    transition: color 0.3s ease; /* Efeito de transição suave */
+    color: #ffffff; 
+    font-weight: bold; 
+    transition: color 0.3s ease; 
 }
 
 .navbar-session li a:hover {
-    color: #3498db; /* Cor ao passar o mouse */
+    color: #3498db; 
 }
 
 .search {
@@ -43,61 +43,61 @@
 
 .search input {
     margin-left: 10px;
-    height: 2rem; /* Aumento da altura */
-    border-radius: 0.5rem; /* Maior borda arredondada */
-    border: 1px solid #3498db; /* Borda azul */
-    padding: 0.5rem; /* Espaçamento interno */
+    height: 2rem; 
+    border-radius: 0.5rem; 
+    border: 1px solid #3498db; 
+    padding: 0.5rem; 
 }
 
 .search input::placeholder {
-    color: #95a5a6; /* Cor do placeholder */
+    color: #95a5a6;
 }
 
 .container {
-    margin: 5rem auto; /* Margem superior e inferior */
+    margin: 5rem auto;
     max-width: 1200px;
     padding: 0 20px;
 }
 
 .container a {
-    color: #2980b9; /* Cor do link */
-    font-weight: bold; /* Negrito */
+    color: #2980b9; 
+    font-weight: bold; 
 }
 
 .destiny-containers {
     flex: 0 1 calc(33.33% - 20px);
     border-radius: 10px;
-    background-color: #ecf0f1; /* Cor de fundo mais clara */
+    background-color: #ecf0f1; 
     margin: 10px;
     padding: 20px;
     box-sizing: border-box;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
-    transition: transform 0.3s ease; /* Efeito de transição suave */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
 }
 
 .destiny-containers:hover {
-    transform: translateY(-5px); /* Efeito de levantamento ao passar o mouse */
+    transform: translateY(-5px);
 }
 
 .destiny-containers img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px; /* Borda arredondada para imagens */
+    border-radius: 5px; 
 }
 
 footer {
-    background-color: #2c3e50; /* Cor de fundo escura */
-    color: #ffffff; /* Texto branco */
+    background-color: #2c3e50; 
+    color: #ffffff;
     padding: 2rem;
 }
 
 .footer-section h3 {
-    color: #ffffff; /* Texto branco */
+    color: #ffffff; 
 }
 
 .social-links a {
-    color: #ffffff; /* Ícones brancos */
-    margin-right: 1rem; /* Espaçamento entre os ícones */
+    color: #ffffff; 
+    margin-right: 1rem; 
 }
 
 .footer-bottom {
@@ -109,7 +109,7 @@ footer {
 .destinos-dropdown {
     display: none;
     position: absolute;
-    background-color: #2c3e50; /* Alterado para um tom mais escuro */
+    background-color: #2c3e50; 
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -125,7 +125,6 @@ footer {
 }
 
 
-/* Estilo para o link de Destinos */
 .navbar-session .destinos-link {
     position: relative;
 }
