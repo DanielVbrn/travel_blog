@@ -12,7 +12,15 @@
             <h1>Blog de Viagens</h1>
             <nav class="navbar-session">
                 <li> <a href="">Home</a> </li>
-                <li> <a href="">Destinos</a> </li>
+                <li class="destinos-link"> <a href="#">Destinos</a>
+                    <ul class="destinos-dropdown">
+                        <li><a href="#">São Paulo</a></li>
+                        <li><a href="#">Rio de Janeiro</a></li>
+                        <li><a href="#">Bahia</a></li>
+                        <li><a href="#">Minas Gerais</a></li>
+
+                    </ul>
+                </li>                
                 <li> <a href="">Contatos</a> </li>
                 <li> <a href="">Dicas</a> </li>
 
@@ -115,6 +123,26 @@
             &copy; 2024 Blog de Viagens | Todos os direitos reservados.
         </div>
     </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var destinosLink = document.querySelector(".destinos-link");
+            var destinosDropdown = document.querySelector(".destinos-dropdown");
+    
+            destinosLink.addEventListener("click", function() {
+                if (destinosDropdown.style.display === "none" || destinosDropdown.style.display === "") {
+                    destinosDropdown.style.display = "block";
+                } else {
+                    destinosDropdown.style.display = "none";
+                }
+            });
+    
+            window.addEventListener("click", function(event) {
+                if (!destinosLink.contains(event.target) && !destinosDropdown.contains(event.target)) {
+                    destinosDropdown.style.display = "none";
+                }
+            });
+        });
+    </script>
     
 </body>
 </html>
