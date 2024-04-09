@@ -1,0 +1,134 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    text-decoration:none;
+    list-style-type: none;
+}
+
+
+.navbar {
+    background-color: #c7c7c7;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-session {
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar-session li {
+    margin: 10px;
+}
+
+
+.navbar-session li a { 
+    color: #00b78c;
+}
+
+.navbar-session li a:hover {
+    transition: 500ms;
+    color: #b74900;
+}
+
+.search {
+    padding: 2rem;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.search input {
+    margin-left: 10px;
+    height: 1.4rem;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+.search input::after {
+    height: 1.9rem;
+}
+
+.search p {
+    font-size: 1rem;
+    height: 1.5rem;
+    color: #00b78c;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem ;
+    max-width: 1200px;
+    padding: 0 20px;   
+}
+
+.container a {
+    color: #00b78c;
+}
+
+.destiny {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none; 
+    padding: 0; 
+}
+
+.destiny-containers {
+    flex: 0 1 calc(33.33% - 20px); 
+    border-radius: 10px;
+    background-color: #dedede;
+    margin: 10px; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.destiny-containers img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #c7c7c7;
+    color: #000000;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1 1 30%;
+    margin-right: 20px;
+}
+
+.footer-section h3 {
+    color: #00b78c;
+}
+
+.footer-section ul {
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
