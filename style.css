@@ -104,3 +104,28 @@ footer {
     margin-top: 2rem;
     text-align: center;
 }
+
+
+.destinos-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #2c3e50; /* Alterado para um tom mais escuro */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.destinos-dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+
+/* Estilo para o link de Destinos */
+.navbar-session .destinos-link {
+    position: relative;
+}
